@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/latlong/pesce-streetlamp-demo"
+set -gx VIRTUAL_ENV "/home/captainspockears/Desktop/httpdemo"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
@@ -52,8 +52,8 @@ if test -z "$VIRTUAL_ENV_DISABLE_PROMPT"
         set -l old_status $status
 
         # Prompt override?
-        if test -n "(pesce-streetlamp-demo) "
-            printf "%s%s" "(pesce-streetlamp-demo) " (set_color normal)
+        if test -n "(httpdemo) "
+            printf "%s%s" "(httpdemo) " (set_color normal)
         else
             # ...Otherwise, prepend env
             set -l _checkbase (basename "$VIRTUAL_ENV")

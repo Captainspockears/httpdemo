@@ -10,6 +10,7 @@ savedname = "";
 def home():
 
 	global savedname
+	name = savedname
 
 	if request.method == "POST":
 		name = request.form["name"]
@@ -17,7 +18,7 @@ def home():
 		savedname = name
 			
 
-	return render_template("name.html", currentname=request.form["name"])
+	return render_template("name.html", currentname=name)
 
 @app.route("/whatisname")
 def whatisname():
