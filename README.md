@@ -8,4 +8,4 @@ You can use the curl command on the terminal to GET and POST to these URLs.
 Try the following commands:
 
 1. GET - curl https://httpdemopesce.herokuapp.com/
-2. POST - 
+2. POST - curl -d "name=ruthu" -X POST https://httpdemopesce.herokuapp.com/
